@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio\index.html">
+    <title>Responsive Blog Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            color: #dceeff;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .sidebar {
+            background-color: #e0e0e0;
+            padding: 1rem;
+        }
+
+        .sidebar h2 {
+            margin-top: 0;
+        }
+
+        .sidebar a {
+            color: #007bff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .sidebar a:hover {
+            color: #0056b3;
+        }
+
+        .recent-posts {
+            margin-top: 1rem;
+        }
+
+        .recent-posts h2 {
+            font-size: 18px;
+        }
+
+        .recent-posts a {
+            display: block;
+            padding-top: 4px;
+            padding-left: 4px;
+            padding-bottom: 0.3rem;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .recent-posts a:hover {
+            background-color: #dceeff;
+            border-radius: 5px;
+        }
+
+        .content {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .blog-post {
+            background-color: #f8f8f8;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        footer a {
+            color: #dceeff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+
+    <nav>
+        <a href="file:///C:/Users/chinm/Desktop/WebDev/Portfolio/index.html">Portfolio</a>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>About Me</h2>
+            <p>Hi! I'm Chinmay Nakwa, a tech enthusiast passionate about AI/ML.</p>
+            <a href="https://www.linkedin.com/in/chinmay-nakwa-9a0836241" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/ChinmayNakwa" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+
+            <div class="recent-posts">
+                <h2>Recent Posts</h2>
+                <a href="#blog1">Exploring TensorFlow</a>
+                <a href="#blog2">The Rise of AI in Medicine</a>
+                <a href="#blog3">Data Science Tools</a>
+                <a href="#blog4">Future of Technology</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="blog-post" id="blog1">
+                <h2>Exploring TensorFlow</h2>
+                <p>TensorFlow is a powerful library for deep learning that provides tools for creating and training neural networks. From image recognition to natural language processing, its flexibility and scalability make it a popular choice among developers and researchers.</p>
+                <p>With TensorFlow, you can efficiently perform computations on CPUs, GPUs, or TPUs, making it versatile for various projects. The library also includes modules like TensorFlow Lite and TensorFlow.js for deploying models on mobile and web platforms.</p>
+            </div>
+
+            <div class="blog-post" id="blog2">
+                <h2>The Rise of AI in Medicine</h2>
+                <p>AI is revolutionizing healthcare by enabling early disease detection, personalized treatments, and efficient management of medical records. Tools like AI-powered imaging and robotic surgery are becoming more commonplace.</p>
+                <p>For example, AI algorithms can analyze thousands of medical images to identify anomalies, significantly aiding radiologists. The integration of AI into healthcare systems is paving the way for more accessible and effective medical services.</p>
+            </div>
+
+            <div class="blog-post" id="blog3">
+                <h2>Data Science Tools</h2>
+                <p>Data science relies on powerful tools to handle and analyze large datasets. Libraries like Pandas and NumPy make data manipulation and numerical computations seamless, while Matplotlib and Seaborn offer comprehensive data visualization capabilities.</p>
+                <p>For machine learning, Scikit-learn is a go-to library for building predictive models. Combine these with Jupyter Notebooks for interactive development, and you have a complete toolkit for tackling data science challenges.</p>
+            </div>
+
+            <div class="blog-post" id="blog4">
+                <h2>Future of Technology</h2>
+                <p>From AI-driven solutions to advancements in quantum computing, the future of technology is bright. Concepts like smart cities, autonomous vehicles, and personalized digital assistants are already being realized.</p>
+                <p>As technology evolves, it will continue to address global challenges like climate change and healthcare, pushing the boundaries of innovation and improving lives worldwide.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog | <a href="#home">Back to Top</a></p>
+    </footer>
+</body>
+</html>

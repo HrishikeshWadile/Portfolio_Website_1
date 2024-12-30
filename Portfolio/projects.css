@@ -11,7 +11,6 @@ header{
 header ul {
     background-color: #333;
     border-radius: 10px;
-    padding-bottom: 10px;
 }
 
 header h1{
@@ -63,13 +62,26 @@ section {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
+#MachineLearning {
+    padding-bottom: 150px;
+}
+
 #MachineLearning  h3{
+    margin: 0;
     font-size: 34px;
     padding-left: 10px;
     color: white;
     font-family: cursive;
     font-style: italic;
     font-weight: bold;
+}
+
+#MachineLearning img {
+    float: right;
+    height: 280px;
+    width: 400px;
+    margin-top: 0;
+    border-radius: 10px;
 }
 
 #MachineLearning p {
@@ -84,13 +96,26 @@ section {
     font-size: 20px;
 }
 
+#DataVisualization {
+    padding-bottom: 100px;
+}
+
 #DataVisualization h3{
+    margin: 0;
     font-size: 34px;
     padding-left: 10px;
     color: white;
     font-family: cursive;
     font-style: italic;
     font-weight: bold;
+}
+
+#DataVisualization img {
+    float: right;
+    height: 280px;
+    width: 400px;
+    margin-top: 0;
+    border-radius: 15px;
 }
 
 #DataVisualization p {
@@ -106,12 +131,24 @@ section {
 }
 
 #DeepLearning h3{
+    margin: 0;
     font-size: 36px;
     padding-left: 10px;
     color: white;
     font-family: cursive;
     font-style: italic;
     font-weight: bold;
+}
+
+#DeepLearning {
+    padding-bottom: 70px;
+}
+#DeepLearning img {
+    float: right;
+    height: 280px;
+    width: 400px;
+    margin-top: 0;
+    border-radius: 15px;
 }
 
 #DeepLearning p {
@@ -127,6 +164,7 @@ section {
 }
 
 #WebsiteDevelopement  h3{
+    margin: 0;
     font-size: 36px;
     padding-left: 10px;
     color: white;
@@ -145,6 +183,14 @@ section {
     color: #ffffff;
     margin-left: 10px;
     font-size: 20px;
+}
+
+#WebsiteDevelopement img {
+    float: right;
+    height: 280px;
+    width: 400px;
+    margin-top: 0;
+    border-radius: 10px;
 }
 
 /*Footer*/
